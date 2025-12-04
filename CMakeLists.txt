@@ -3,7 +3,7 @@ project(OGL)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(OGL main.cpp)
+add_executable(OGL src/main.cpp)
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
